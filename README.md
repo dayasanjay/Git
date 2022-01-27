@@ -2,6 +2,7 @@
 
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.<br>
 Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.<br>
+
 ### Types of Version Control Sysems
 
 Version control systems are tools that help a software team manage changes to source code over time.<br>
@@ -22,7 +23,7 @@ Git is Distributed Version controlling.<br>
 
 Centralized Version Control is a version control system using server/client model and server contains all the history of source code.
 
-### Distributed
+### Distributed Version Control System
 
 One of the nicest features of any Distributed SCM, Git included, is that it's distributed. This means that instead of doing a "checkout" of the current tip of the source code, you do a "clone" of the entire repository.
 
@@ -37,6 +38,11 @@ $ git config --global   user.name "dayasanjay"<br>
 $ git config --global   user.email  "dayababujohn@gmail.com"<br>
 
 ### Branching and Merging
+
+This feature is provided in git, so that developers can create code related to different functionalities  on seprate branches.<br>
+This helps the development team in creating the code in an uncluttered way.<br>
+Later this code can be merged with master branch.<br>
+Default branch of git is "Master"<br>
 
 The Git feature that really makes it stand apart from nearly every other SCM out there is its branching model.<br>
 
