@@ -35,8 +35,8 @@ Git Bash is an application for Microsoft Windows environments which provides an 
 <b>How to configure username and email for git?</b><br>
 
 $ git init<br>
-$ git config --global   user.name "dayasanjay"<br>
-$ git config --global   user.email  "dayababujohn@gmail.com"<br>
+$ git config - -global   user.name "user name"<br>
+$ git config - -global   user.email  "user_mail@gmail.com"<br>
 
 ### Branching and Merging
 
@@ -59,7 +59,7 @@ Git allows and encourages you to have multiple local branches that can be entire
 
 <b>Disposable Experimentation.</b> Create a branch to experiment in, realize it's not going to work, and just delete it - abandoning the work—with nobody else ever seeing it (even if you've pushed other branches in the meantime).<br>
 
-### Git commands
+### Some useful Git commands
 
 <b>git init</b>           ----> to make working directory as git repository<br>
 <b>git add filename</b>   ----> to move file to staging area<br>
@@ -70,6 +70,6 @@ Git allows and encourages you to have multiple local branches that can be entire
 <b>git rebase</b>         ----> the commits from the sub branch are added to the top of the master branch<br>
 <b>git stash</b>          ----> this feature is used for leaving unfinished work, in such a way that Git cannot access it and continue  work on some other files<br>
 <b>git stash -u</b>       ----> to stash  staged and untracked files<br>
-<b>git stash list</b>     ----> to see the list of stashes
-<b>git stash pop</b>      ----> to get back the stashed files
-<b>git  stash  pop  stash@{stash_number}</b>    ----> to bring the older stash  out
+<b>git stash list</b>     ----> to see the list of stashes<br>
+<b>git stash pop</b>      ----> to get back the stashed files<br>
+<b>git  stash  pop  stash@{stash_number}</b>    ----> to bring the older stash  out<br>
