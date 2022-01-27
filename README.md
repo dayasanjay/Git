@@ -1,6 +1,7 @@
 ## What is Git?
 
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.<br>
+
 Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.<br>
 
 ### Types of Version Control Sysems
@@ -58,6 +59,17 @@ Git allows and encourages you to have multiple local branches that can be entire
 
 <b>Disposable Experimentation.</b> Create a branch to experiment in, realize it's not going to work, and just delete it - abandoning the work—with nobody else ever seeing it (even if you've pushed other branches in the meantime).<br>
 
-### Support or Contact
+### Git commands
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<b>git init</b>           ----> to make working directory as git repository<br>
+<b>git add filename</b>   ----> to move file to staging area<br>
+<b>git add . </b>         ----> to move all files to staging area<br>
+<b>git rm  --cached filename or git reset  filename </b> ----> bring file back to untracked section<br>
+<b>git commit -m "first commit"</b> ----> to move the files from staging are to local repositary<br>
+<b>git log</b>            ----> to see the list of commit<br>
+<b>git rebase</b>         ----> the commits from the sub branch are added to the top of the master branch<br>
+<b>git stash</b>          ----> this feature is used for leaving unfinished work, in such a way that Git cannot access it and continue  work on some other files<br>
+<b>git stash -u</b>       ----> to stash  staged and untracked files<br>
+<b>git stash list</b>     ----> to see the list of stashes
+<b>git stash pop</b>      ----> to get back the stashed files
+<b>git  stash  pop  stash@{stash_number}</b>    ----> to bring the older stash  out
